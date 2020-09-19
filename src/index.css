@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans&family=Quicksand&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+
+}
+.fondo {
+    background-color: #dbdbdb;
+  }
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+.container {
+    padding: 2px 16px;
+  }
+
+.search-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.search-input, .search-btn{
+    border: 1px solid gray;
+    border-radius:5px;
+
+}
+
+.search-input{
+    padding:  5px 15px;
+    width: calc (30% - 2em);
+    margin: 0 8px;
+
+}
+
+.search-btn{
+    padding: 5px 5px;
+
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-item{
+    flex-shrink: 1;
+    flex-basis:25%;
+}
